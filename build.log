@@ -1,0 +1,124 @@
+
+> prophxiy@0.1.0 build
+> next build
+
+Ôû▓ Next.js 16.2.10 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 2 errors:
+./components/prophixy-docs.tsx:5:1
+Export Github doesn't exist in target module
+   3 | import Link from "next/link";
+   4 | import { motion } from "framer-motion";
+>  5 | import {
+     | ^^^^^^^
+>  6 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  7 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+>  8 |   BrainCircuit,
+     | ^^^^^^^^^^^^^^^
+>  9 |   CircleDollarSign,
+     | ^^^^^^^^^^^^^^^^^^^
+> 10 |   Compass,
+     | ^^^^^^^^^^
+> 11 |   Flame,
+     | ^^^^^^^^
+> 12 |   Github,
+     | ^^^^^^^^^
+> 13 |   Globe2,
+     | ^^^^^^^^^
+> 14 |   Menu,
+     | ^^^^^^^
+> 15 |   MessageCircleMore,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 16 |   Rocket,
+     | ^^^^^^^^^
+> 17 |   Search,
+     | ^^^^^^^^^
+> 18 |   Send,
+     | ^^^^^^^
+> 19 |   ShieldCheck,
+     | ^^^^^^^^^^^^^^
+> 20 |   Sparkles,
+     | ^^^^^^^^^^^
+> 21 |   Users,
+     | ^^^^^^^^
+> 22 |   X,
+     | ^^^^
+> 23 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { useState } from "react";
+  25 | import { AfricaIllustration } from "@/components/ui/africa-illustration";
+  26 | import { MembershipCard } from "@/components/ui/membership-card";
+
+The export Github was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Gift?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/prophixy-docs.tsx
+    ./app/page.tsx
+
+
+./components/prophixy-docs.tsx:5:1
+Export Github doesn't exist in target module
+   3 | import Link from "next/link";
+   4 | import { motion } from "framer-motion";
+>  5 | import {
+     | ^^^^^^^
+>  6 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  7 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+>  8 |   BrainCircuit,
+     | ^^^^^^^^^^^^^^^
+>  9 |   CircleDollarSign,
+     | ^^^^^^^^^^^^^^^^^^^
+> 10 |   Compass,
+     | ^^^^^^^^^^
+> 11 |   Flame,
+     | ^^^^^^^^
+> 12 |   Github,
+     | ^^^^^^^^^
+> 13 |   Globe2,
+     | ^^^^^^^^^
+> 14 |   Menu,
+     | ^^^^^^^
+> 15 |   MessageCircleMore,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 16 |   Rocket,
+     | ^^^^^^^^^
+> 17 |   Search,
+     | ^^^^^^^^^
+> 18 |   Send,
+     | ^^^^^^^
+> 19 |   ShieldCheck,
+     | ^^^^^^^^^^^^^^
+> 20 |   Sparkles,
+     | ^^^^^^^^^^^
+> 21 |   Users,
+     | ^^^^^^^^
+> 22 |   X,
+     | ^^^^
+> 23 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { useState } from "react";
+  25 | import { AfricaIllustration } from "@/components/ui/africa-illustration";
+  26 | import { MembershipCard } from "@/components/ui/membership-card";
+
+The export Github was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Gift?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/prophixy-docs.tsx
+    ./app/page.tsx
+
+
+    at <unknown> (./components/prophixy-docs.tsx:5:1)
+    at <unknown> (./components/prophixy-docs.tsx:5:1)
