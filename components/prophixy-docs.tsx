@@ -97,6 +97,29 @@ const predictionPillars = [
   },
 ];
 
+const platform = [
+ {
+ title:"Community Intelligence",
+ icon:Users
+ },
+ {
+ title:"Data-Driven Insights",
+ icon:BrainCircuit
+ },
+ {
+ title:"Decentralized Participation",
+ icon:Globe2
+ },
+ {
+ title:"On-chain Identity",
+ icon:ShieldCheck
+ },
+ {
+ title:"Reward-Based Engagement",
+ icon:Sparkles
+ }
+];
+
 const ecosystemPillars = [
   {
     title:"Intelligence",
@@ -312,16 +335,30 @@ export function ProphixyDocsPage() {
               <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
                 <div>
                   <p className="text-sm font-semibold uppercase tracking-[0.3em] text-emerald-300">Introduction</p>
-                  <h2 className="mt-2 text-3xl font-semibold text-white">PROPHIXY is a decentralized prediction and decision intelligence platform built for Africa.
 
+  <h2 className="mt-2 text-3xl font-semibold text-white">
+Introduction
+</h2>
+
+<p className="mt-4 leading-8 text-zinc-400">
+PROPHIXY is a decentralized prediction and decision intelligence platform built for Africa.
+</p>
+
+<p className="mt-4 leading-8 text-zinc-400">
 We empower individuals, communities, businesses, and organizations to anticipate real-world outcomes through collective intelligence and transparent forecasting.
+</p>
 
+<p className="mt-4 leading-8 text-zinc-400">
 By combining community insights with data-driven analysis, Prophixy transforms predictions into actionable intelligence that helps people make better decisions.
+</p>
 
-From currencies to commodities, crypto to culture, Prophixy is creating Africa's intelligence network.</h2>
-                </div>
-                <div className="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-4 py-2 text-sm text-emerald-200">
-                  This is not betting. This is collective intelligence for Africa.
+<p className="mt-4 leading-8 text-zinc-400">
+From currencies to commodities, crypto to culture, Prophixy is creating Africa's intelligence network.
+</p>
+
+<div className="mt-5 rounded-xl border border-emerald-400/20 bg-emerald-400/10 p-4 text-emerald-300">
+This is not betting. This is collective intelligence for Africa.
+</div>
   
               </p>
 
