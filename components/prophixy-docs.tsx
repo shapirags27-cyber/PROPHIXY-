@@ -26,38 +26,21 @@ import { MembershipCard } from "@/components/ui/membership-card";
 import { SectionCard } from "@/components/ui/section-card";
 
 const navItems = [
-  { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
-  { label: "Features", href: "#features" },
+  { label: "Introduction", href: "#introduction", active: true },
+  { label: "Vision", "mission", href: "#vision" },
+  { label: "Platform", href: "#platform" },
+  { label: "Ecosystem", href: "#ecosystem" },
   { label: "Membership", href: "#membership" },
   { label: "Roadmap", href: "#roadmap" },
-  { label: "Docs", href: "#introduction", active: true },
-  { label: "Community", href: "#community" },
-];
-
-const sidebarItems = [
-  { label: "Introduction", href: "#introduction" },
-  { label: "Vision & Mission", href: "#vision" },
-  { label: "What Makes Prophixy Different", href: "#features" },
-  { label: "What Can You Predict?", href: "#predictions" },
-  { label: "The Prophixy Ecosystem", href: "#ecosystem" },
-  { label: "Soulbound Membership", href: "#soulbound" },
-  { label: "Membership Tiers", href: "#membership" },
-  { label: "Why Become a Member?", href: "#why-member" },
-  { label: "Beta Tester Program", href: "#beta" },
-  { label: "Partnership Benefits", href: "#community" },
-  { label: "Reward Points", href: "#rewards" },
-  { label: "Token Generation Event (TGE)", href: "#tge" },
-  { label: "How Membership Works", href: "#membership-flow" },
-  { label: "Roadmap", href: "#roadmap" },
-  { label: "Our Commitment", href: "#commitment" },
+  { label: "Security", href: "#security" },
+  { label: "Commitment", href: "#commitment" },
 ];
 
 const stats = [
-  { value: "12.4K", label: "Active Members" },
-  { value: "86.2K", label: "Predictions Made" },
-  { value: "9.1K", label: "Badges Minted" },
-  { value: "18", label: "Countries" },
+  { value: "Africa", label: "Intelligence Network" },
+  { value: "100%", label: "Community Powered" },
+  { value: "24/7", label: "Prediction Insights" },
+  { value: "Global", label: "African Markets" },
 ];
 
 const features = [
@@ -69,37 +52,111 @@ const features = [
 ];
 
 const predictionPillars = [
-  { title: "Multi-Currency Intelligence", detail: "African FX and regional market forecasting." },
-  { title: "Economic Intelligence", detail: "Inflation, commodities, and daily market shifts." },
-  { title: "Business & Technology", detail: "Fintech, mobile money, and AI adoption signals." },
-  { title: "Crypto Intelligence", detail: "Stablecoin growth, Web3 adoption and DeFi." },
-  { title: "Cultural & Social Trends", detail: "Music, sports, youth culture and social momentum." },
+  {
+    title: "Multi-Currency Intelligence",
+    detail:
+      "Monitor and forecast African currencies against global markets including Naira, Kenyan Shilling, Rand, and other regional currencies.",
+  },
+  {
+    title: "Economic Intelligence",
+    detail:
+      "Understand inflation trends, fuel prices, food prices, commodities, and economic movements affecting Africa.",
+  },
+  {
+    title: "Business & Technology",
+    detail:
+      "Discover future trends in fintech, mobile money, startups, digital payments, and artificial intelligence adoption.",
+  },
+  {
+    title: "Crypto Intelligence",
+    detail:
+      "Track stablecoin adoption, crypto payments, Web3 growth, DeFi expansion, and blockchain innovation across Africa.",
+  },
+  {
+    title: "Cultural & Social Trends",
+    detail:
+      "Forecast music trends, sports outcomes, entertainment movements, viral communities, and youth innovation.",
+  },
+];
+
+const ecosystemPillars = [
+  {
+    title: "Intelligence",
+    copy:
+      "Generate valuable predictions backed by community participation, transparent forecasting, and data-driven insights.",
+  },
+  {
+    title: "Community",
+    copy:
+      "Build a trusted network where individuals contribute knowledge, analysis, and predictions that create collective intelligence.",
+  },
+  {
+    title: "Rewards",
+    copy:
+      "Reward participation through reputation, points, exclusive benefits, ecosystem opportunities, and recognition.",
+  },
+];
+
+const why become a member?
+membership is more than access.
+
+it's your identity within the PROPHIXY ecosystem= [
+  "Exclusive Intelligence",
+  "Premium Research",
+  "Early Product Access",
+  "Beta Testing Opportunities",
+  "Partner Rewards",
+  "Community Recognition",
+  "TGE Participation Opportunities",
+  "Long-Term Ecosystem Benefits",
+  "Prediction Market Creation",
+];
+
+const roadmap = [
+  {
+    title: "Phase 1 — Foundation",
+    items: [
+      "Brand Launch✓",
+      "Documentation✓",
+      "Community Building✓",
+      "Website Launch✓",
+    ],
+  },
+  {
+    title: "Phase 2 — Membership",
+    items: [
+      "Soulbound Badge Mint",
+      "Discord Verification",
+      "Reward Points System",
+      "Member Dashboard",
+    ],
+  },
+  {
+    title: "Phase 3 — Platform Intelligence",
+    items: [
+      "Live Prediction Platform",
+      "Community Forecasting",
+      "Analytics Dashboard",
+      "Beta Testing Program",
+      "Partner Campaigns",
+    ],
+  },
+  {
+    title: "Phase 4 — Ecosystem Expansion",
+    items: [
+      "Mobile Application",
+      "AI-Powered Intelligence",
+      "Additional African Markets",
+      "Strategic Partnerships",
+      "Token Generation Event",
+    ],
+  },
 ];
 
 const ecosystemPillars = [
   { title: "Intelligence", copy: "Forecasts built from collective participation and transparent data." },
-  { title: "Community", copy: "Trusted networks that surface insight before the market moves." },
-  { title: "Rewards", copy: "Recognition, points, benefits, and ecosystem access for contribution." },
-];
-
-const reasons = [
-  "Exclusive Intelligence",
-  "Premium Research",
-  "Early Product Access",
-  "Beta Testing",
-  "Partner Rewards",
-  "Community Recognition",
-  "TGE Participation",
-  "Long-Term Benefits",
-  "Market Creation",
-];
-
-const roadmap = [
-  { title: "Foundation", items: ["Brand Launch", "Documentation", "Community Building", "Website Launch"] },
-  { title: "Membership", items: ["Soulbound Badge Mint", "Discord Verification", "Reward Points", "Member Dashboard"] },
-  { title: "Platform Intelligence", items: ["Live Prediction Platform", "Community Forecasting", "Analytics Dashboard", "Beta Testing Program"] },
-  { title: "Ecosystem Expansion", items: ["Mobile Application", "AI-Powered Intelligence", "African Market Expansion", "Token Generation Event"] },
-];
+  { title: "Community", copy: "Trusted networks that surface in
+  { title: "Reward", copy:   "Reward active participant with exclusive benefits, reputation,and ecosystem opportunities.
 
 export function ProphixyDocsPage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -234,7 +291,7 @@ export function ProphixyDocsPage() {
             </motion.div>
 
             <motion.section
-              id="about"
+              id="introduction"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
@@ -244,15 +301,17 @@ export function ProphixyDocsPage() {
               <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
                 <div>
                   <p className="text-sm font-semibold uppercase tracking-[0.3em] text-emerald-300">Introduction</p>
-                  <h2 className="mt-2 text-3xl font-semibold text-white">PROPHIXY is a decentralized prediction and decision intelligence platform built for Africa.</h2>
+                  <h2 className="mt-2 text-3xl font-semibold text-white">PROPHIXY is a decentralized prediction and decision intelligence platform built for Africa.
+
+We empower individuals, communities, businesses, and organizations to anticipate real-world outcomes through collective intelligence and transparent forecasting.
+
+By combining community insights with data-driven analysis, Prophixy transforms predictions into actionable intelligence that helps people make better decisions.
+
+From currencies to commodities, crypto to culture, Prophixy is creating Africa's intelligence network.</h2>
                 </div>
                 <div className="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-4 py-2 text-sm text-emerald-200">
                   This is not betting. This is collective intelligence for Africa.
-                </div>
-              </div>
-
-              <p className="mt-6 max-w-3xl text-base leading-8 text-zinc-400">
-                We empower individuals, communities, businesses, and organizations to anticipate real-world outcomes through collective intelligence and transparent forecasting. By combining community insights with data-driven analysis, Prophixy transforms predictions into actionable intelligence that helps people make better decisions.
+  
               </p>
 
               <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
@@ -283,7 +342,8 @@ export function ProphixyDocsPage() {
                 </div>
                 <h3 className="mt-4 text-2xl font-semibold text-white">Vision</h3>
                 <p className="mt-3 text-sm leading-8 text-zinc-400">
-                  Become Africa&apos;s leading decentralized prediction and decision intelligence ecosystem that enables millions of people to make informed decisions through transparent, community-powered forecasting.
+                  To become Africa's leading decentralized prediction and decision intelligence ecosystem, enabling millions of people to make informed decisions through transparent, community-powered forecasting.
+
                 </p>
               </div>
               <div className="rounded-[28px] border border-white/10 bg-gradient-to-br from-zinc-900/80 to-zinc-800/70 p-6 shadow-[0_0_45px_rgba(0,0,0,0.25)] backdrop-blur-xl">
@@ -292,13 +352,13 @@ export function ProphixyDocsPage() {
                 </div>
                 <h3 className="mt-4 text-2xl font-semibold text-white">Mission</h3>
                 <p className="mt-3 text-sm leading-8 text-zinc-400">
-                  Democratize access to predictive intelligence by building an open platform where African communities can collectively forecast trends, analyze markets, and unlock opportunities before they happen.
+                  To democratize access to predictive intelligence by building an open platform where African communities can collectively forecast trends, analyze markets, and unlock opportunities before they happen.
                 </p>
               </div>
             </motion.section>
 
             <motion.section
-              id="features"
+              id="platform"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
@@ -308,9 +368,152 @@ export function ProphixyDocsPage() {
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-emerald-300">What Makes Prophixy Different?</p>
               <h2 className="mt-2 text-3xl font-semibold text-white">A platform that turns collective insight into actionable intelligence.</h2>
               <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5">
-                {features.map((feature) => (
-                  <motion.div key={feature.title} whileHover={{ y: -4, scale: 1.01 }}>
-                    <SectionCard title={feature.title} description="Designed to combine transparent forecasts, trusted identity, and community rewards into one experience." icon={feature.icon} />
+                {platform.map((platform) => (
+                  <motion.div key={platform.title} whileHover={{ y: -4, scale: 1.01 }}>
+                    <SectionCard title={platform.title} description="Unlike traditional prediction platforms that focus on speculation or betting, Prophixy focuses on generating valuable intelligence.
+
+Every prediction contributes to a larger knowledge network that helps users understand future trends across multiple sectors.
+
+Our platform combines:
+
+• Community Intelligence
+
+• Data-Driven Insights
+
+• Decentralized Participation
+
+• On-chain Identity
+
+• Reward-Based Engagement
+
+
+
+---
+
+AI-Assisted Intelligence:
+
+As the Prophixy ecosystem evolves, artificial intelligence will work alongside community intelligence to provide deeper market insights, identify emerging trends, and support better decision-making.
+
+Rather than replacing human judgment, AI enhances community forecasting by analyzing large datasets, identifying patterns, and helping users understand the factors influencing future outcomes.
+
+
+---
+
+What Can You Predict?
+
+ Multi-Currency Intelligence:
+
+Monitor and forecast African currencies against global markets.
+
+Examples:
+
+Will the Nigerian Naira strengthen this month?
+
+Will the Kenyan Shilling outperform the US Dollar?
+
+Which African currency will perform best this quarter?
+
+
+
+---
+
+ Economic Intelligence:
+
+Understand important economic movements affecting everyday Africans.
+
+Examples:
+
+Inflation trends
+
+Fuel price movements
+
+Food price changes
+
+Commodity performance
+
+
+
+---
+
+ Business & Technology:
+
+Discover where innovation is heading.
+
+Examples:
+
+Mobile money adoption
+
+Fintech growth
+
+Startup ecosystems
+
+Digital payments
+
+Artificial Intelligence adoption
+
+
+
+---
+
+ Crypto Intelligence:
+
+Track Africa's growing blockchain ecosystem.
+
+Examples:
+
+Stablecoin adoption
+
+Crypto payment growth
+
+Web3 adoption
+
+DeFi expansion
+
+Blockchain innovation
+
+
+
+---
+
+ Cultural & Social Trends:
+
+Community-driven forecasting beyond finance.
+
+Examples:
+
+Music trends
+
+Sports outcomes
+
+Entertainment
+
+Viral movements
+
+Youth-driven innovation
+
+
+
+---
+
+How Predictions Work:
+
+1. Browse available prediction markets.
+
+
+2. Review available information and community insights.
+
+
+3. Submit your prediction.
+
+
+4. Share the reasoning behind your forecast.
+
+
+5. Predictions remain open until the market closes.
+
+
+6. Once outcomes are verified, participants earn reputation and reward points based on prediction accuracy and community participation.
+" icon={platform.icon} />
                   </motion.div>
                 ))}
               </div>
@@ -327,24 +530,65 @@ export function ProphixyDocsPage() {
               <MembershipCard
                 title="Market Creator"
                 gradient="bg-gradient-to-br from-emerald-500/20 via-zinc-900/70 to-zinc-900/80"
-                badge="Limited Supply"
+                badge="Limited Supply 1500"
                 accent="text-emerald-300"
                 benefits={[
-                  "Premium Prediction Insights",
-                  "Advanced Research",
-                  "Market Watchlists",
-                  "Early Campaign Access",
-                  "Discord Access",
-                  "Beta Tester",
-                  "Partner Benefits",
-                  "Soulbound NFT",
+     
+
+Designed for members seeking premium intelligence and early ecosystem opportunities.
+
+Benefits:
+
+• Premium Prediction Insights
+
+• Advanced Research Reports
+
+• Market Watchlists
+
+• Early Campaign Access
+
+• Beta Tester Access
+
+• Partner Ecosystem Benefits
+
+• Create Prediction Markets
+
+• Discord Market Creator Role
+
+• Eligible for TGE Allocation
+
+Soulbound (Non-transferable)
+
+Soulbound (Non-transferable)
+
                 ]}
               />
               <MembershipCard
                 title="Top Forecaster"
-                gradient="bg-gradient-to-br from-violet-500/20 via-zinc-900/70 to-zinc-900/80"
-                badge="Limited Supply"
-                accent="text-violet-300"
+                gradient="bg-gradient-to-br from-violet-500/20 via-zinc-900/70500 to-zinc-900/80"
+                
+
+Limited Supply: 500
+
+Built for members who want the highest level of access within the ecosystem.
+
+Benefits:
+
+• Everything included in Market Creator, plus:
+
+• Priority TGE Allocation
+
+• Exclusive Intelligence Briefings
+
+• Private Strategy Discussions
+
+• Premium Community Access
+
+• Priority Beta Tester Access
+
+• Premium Partner Benefits
+
+• Top Forecaster Discord Role"
                 benefits={[
                   "Everything in Market Creator",
                   "Priority TGE Allocation",
@@ -354,6 +598,202 @@ export function ProphixyDocsPage() {
                   "Priority Beta Access",
                   "Top Forecaster Role",
                   "Soulbound NFT",
+              <MembershipCard
+                title="Soulbound Membership"description=Soulbound Membership:
+
+Prophixy Membership is powered by Soulbound Tokens (SBTs).
+
+Soulbound Tokens are permanently linked to your wallet and cannot be bought, sold, or transferred.
+
+They represent your verified identity within the Prophixy ecosystem.
+
+Why Soulbound Tokens (SBTs)?
+
+Soulbound Tokens are at the heart of PROPHIXY’s membership system because:
+
+• They create a true, non-transferable on-chain identity that reflects your real contributions and reputation.
+
+• They prevent Sybil attacks and gaming by making it difficult to create multiple fake accounts.
+
+• They align incentives toward long-term participation rather than short-term speculation.
+
+• They enable trusted delivery of exclusive benefits such as TGE priority, beta access, and premium intelligence.
+
+• They represent a step toward genuine decentralized reputation without relying on centralized KYC.
+
+
+In simple terms: Regular tokens are tradeable assets, Soulbound Tokens are your permanent passport and reputation in the PROPHIXY ecosystem.
+
+              <MembershipCard
+                title="Why Become a Member?"
+
+Membership is more than access.
+
+It is your identity within the Prophixy ecosystem.
+
+Members receive:
+
+• Exclusive intelligence
+
+• Premium research
+
+• Early product access
+
+• Beta testing opportunities
+
+• Partner rewards
+
+• Community recognition
+
+• TGE participation opportunities
+
+• Long-term ecosystem benefits
+
+• Market creation
+
+
+
+---
+
+              <MembershipCard
+                title="Beta Tester Program:"
+
+All Soulbound Membership holders become official Prophixy Beta Testers.
+
+Beta Testers receive:
+
+• First access to new platform features
+
+• Early testing of products before public release
+
+• Direct feedback opportunities with the Prophixy team
+
+• Invitations to private testing campaigns
+
+• Recognition as early contributors to the ecosystem
+
+• Ability to create prediction markets
+
+
+
+---
+
+              <MembershipCard
+                title="Partnership Benefits:"
+
+Prophixy collaborates with leading Web3 projects and ecosystem partners.
+
+Membership holders may receive:
+
+• Exclusive campaigns
+
+• Early access opportunities
+
+• Community collaborations
+
+• Partner rewards
+
+• Whitelist opportunities
+
+• Educational events
+
+• Premium ecosystem experiences
+
+
+Partner benefits will continue to expand as the ecosystem grows.
+
+
+---
+
+              <MembershipCard
+                title="Reward Points:"
+
+Membership holders receive welcome reward points automatically after successfully:
+
+• Connecting Wallet
+
+• Connecting Discord
+
+• Minting their Soulbound Badge
+
+• Completing Verification
+
+
+• Market Creator members receive 15,000 Welcome Points.
+
+• Top Forecaster members receive 20,000 Welcome Points.
+
+Reward points may be used in future ecosystem campaigns, beta testing rewards, partner rewards, community incentives, exclusive platform activities, and future ecosystem benefits.
+
+
+---
+
+              <MembershipCard
+                title="Future Token Utility:"
+
+The Prophixy ecosystem token is expected to support:
+
+• Community incentives
+
+• Reward distribution
+
+• Premium platform features
+
+• Partner campaigns
+
+• Ecosystem participation
+
+• Future governance initiatives
+
+
+Additional utility will be announced before the Token Generation Event.
+
+
+---
+
+              <MembershipCard
+                title="Token Generation Event (TGE)"
+
+Membership holders receive eligibility for participation in the Prophixy Token Generation Event.
+
+Allocation opportunities may vary depending on:
+
+• Membership Tier
+
+• Snapshot Eligibility
+
+• Community Participation
+
+• Platform Requirements
+
+
+Top Forecaster members receive priority consideration where applicable.
+
+
+---
+              <MembershipCard
+                title="How Membership Works"
+
+1. Connect Wallet
+
+
+2. Connect Discord
+
+
+3. Mint Your Soulbound Membership
+
+
+4. Verify Ownership
+
+
+5. Receive Discord Role Automatically
+
+
+6. Welcome Points Are Credited
+
+
+7. Membership Benefits Become Active
+
                 ]}
               />
             </motion.section>
@@ -390,3 +830,97 @@ export function ProphixyDocsPage() {
               className="rounded-[32px] border border-white/10 bg-zinc-900/70 p-6 shadow-[0_0_80px_rgba(0,0,0,0.25)] backdrop-blur-2xl sm:p-8"
             >
               <p className="text-sm font-semibold
+
+              <ecosystem
+                title="The Prophixy Ecosystem:
+
+The ecosystem is built around three core pillars.
+
+1. Intelligence
+
+
+
+Generate valuable predictions backed by community participation.
+
+2. Community
+
+
+
+Build a trusted network where members contribute knowledge and insights.
+
+3. Rewards
+
+
+
+Reward active participation with exclusive benefits, reputation, and ecosystem opportunities.
+              <ecosystem
+                title="Reputation System:
+
+Every prediction contributes to your on-chain reputation within the Prophixy ecosystem.
+
+Members build reputation through:
+
+• Accurate predictions
+
+• Community participation
+
+• Market creation
+
+• Helpful analysis
+
+• Beta testing contributions
+
+• Ecosystem engagement
+
+
+A stronger reputation unlocks greater recognition, exclusive opportunities, and future ecosystem benefits.
+                </p>
+              </div>
+            </motion.section>
+
+            <motion.section
+              id="commitment"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.45, ease: "easeOut" }}
+              className="rounded-[32px] border border-white/10 bg-zinc-900/70 p-6 shadow-[0_0_80px_rgba(0,0,0,0.25)] backdrop-blur-2xl sm:p-8"
+            >
+              <p className="text-sm font-semibold uppercase tracking-[0.3em] text-emerald-300">our commitment</p>
+              <h2 className="mt-2 text-3xl font-semibold text-white">Prophixy is committed to building an open, transparent, and community-driven intelligence platform that empowers Africans to make better decisions through decentralized forecasting and collective knowledge.
+
+Together, we are creating the future of predictive intelligence in Africa.
+
+              <our commitment
+                title=Join the Intelligence Revolution"
+Africa's future will be shaped by informed decisions—not guesswork.
+
+Become part of a community that transforms knowledge into opportunity through collective intelligence.
+
+Predict Smarter. Decide Better. Shape
+</h2></p>
+              </div>
+            </motion.section>
+
+            <motion.section
+              id="commitment"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.45, ease: "easeOut" }}
+              <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5">
+                {Security.map( security) => (
+                  <motion.div key={Security.title} whileHover={{ y: -4, scale: 1.01 }}>
+                    <securityCard title="security"Prophixy is committed to maintaining a transparent and trustworthy ecosystem through:
+
+• Wallet-based authentication
+
+• On-chain Soulbound identities
+
+• Transparent prediction records
+
+• Decentralized verification
+
+• Community-driven participation
+
+• Privacy-first infrastructure
