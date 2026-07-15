@@ -36,21 +36,14 @@ const navItems = [
 ];
 
 const sidebarItems = [
-  { label: "Introduction", href: "#introduction" },
-  { label: "Vision & Mission", href: "#vision" },
-  { label: "What Makes Prophixy Different", href: "#features" },
-  { label: "What Can You Predict?", href: "#predictions" },
-  { label: "The Prophixy Ecosystem", href: "#ecosystem" },
-  { label: "Soulbound Membership", href: "#soulbound" },
-  { label: "Membership Tiers", href: "#membership" },
-  { label: "Why Become a Member?", href: "#why-member" },
-  { label: "Beta Tester Program", href: "#beta" },
-  { label: "Partnership Benefits", href: "#community" },
-  { label: "Reward Points", href: "#rewards" },
-  { label: "Token Generation Event (TGE)", href: "#tge" },
-  { label: "How Membership Works", href: "#membership-flow" },
-  { label: "Roadmap", href: "#roadmap" },
-  { label: "Our Commitment", href: "#commitment" },
+  { label: "📖 Introduction", href: "#introduction" },
+  { label: "🎯 Vision & Mission", href: "#vision" },
+  { label: "✨ Platform", href: "#platform" },
+  { label: "🌍 Ecosystem", href: "#ecosystem" },
+  { label: "🎖 Membership", href: "#membership" },
+  { label: "🗺 Roadmap", href: "#roadmap" },
+  { label: "🔒 Security", href: "#security" },
+  { label: "🤝 Our Commitment", href: "#commitment" },
 ];
 
 const stats = [
