@@ -40,6 +40,20 @@ const navItems = [
   { label: "Commitment", href: "#commitment" },
 ];
 
+const sidebarItems = [
+  { label: "Introduction", href:"#introduction" },
+  { label: "Vision & Mission", href:"#vision" },
+  { label: "Platform", href:"#platform" },
+  { label: "AI Intelligence", href:"#ai" },
+  { label: "Prediction Categories", href:"#predictions" },
+  { label: "Ecosystem", href:"#ecosystem" },
+  { label: "Reputation System", href:"#reputation" },
+  { label: "Soulbound Membership", href:"#membership" },
+  { label: "Rewards", href:"#rewards" },
+  { label: "Roadmap", href:"#roadmap" },
+  { label: "Security", href:"#security" },
+];
+
 const stats = [
   { value: "Africa", label: "Intelligence Network" },
   { value: "100%", label: "Community Powered" },
@@ -85,26 +99,23 @@ const predictionPillars = [
 
 const ecosystemPillars = [
   {
-    title: "Intelligence",
+    title:"Intelligence",
     copy:
-      "Generate valuable predictions backed by community participation, transparent forecasting, and data-driven insights.",
+    "Generate valuable predictions backed by community participation, transparent forecasting, and data-driven insights."
   },
   {
-    title: "Community",
+    title:"Community",
     copy:
-      "Build a trusted network where individuals contribute knowledge, analysis, and predictions that create collective intelligence.",
+    "Build a trusted network where members contribute knowledge, analysis, and insights."
   },
   {
-    title: "Rewards",
+    title:"Rewards",
     copy:
-      "Reward participation through reputation, points, exclusive benefits, ecosystem opportunities, and recognition.",
-  },
+    "Reward active participation with reputation, benefits, and ecosystem opportunities."
+  }
 ];
 
-const why become a member?
-membership is more than access.
-
-it's your identity within the PROPHIXY ecosystem= [
+const memberBenefits = [
   "Exclusive Intelligence",
   "Premium Research",
   "Early Product Access",
@@ -113,7 +124,7 @@ it's your identity within the PROPHIXY ecosystem= [
   "Community Recognition",
   "TGE Participation Opportunities",
   "Long-Term Ecosystem Benefits",
-  "Prediction Market Creation",
+  "Market Creation",
 ];
 
 const roadmap = [
@@ -157,10 +168,6 @@ const roadmap = [
   },
 ];
 
-const ecosystemPillars = [
-  { title: "Intelligence", copy: "Forecasts built from collective participation and transparent data." },
-  { title: "Community", copy: "Trusted networks that surface in
-  { title: "Reward", copy:   "Reward active participant with exclusive benefits, reputation,and ecosystem opportunities.
 
 export function ProphixyDocsPage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
