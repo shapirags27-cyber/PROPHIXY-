@@ -34,7 +34,6 @@ const navItems = [
   { label: "Docs", href: "#introduction", active: true },
   { label: "Community", href: "#community" },
 ];
-
 const sidebarItems = [
   { label: "📖 Introduction", href: "#introduction" },
   { label: "🎯 Vision & Mission", href: "#vision" },
