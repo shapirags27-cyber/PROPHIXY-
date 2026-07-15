@@ -54,10 +54,10 @@ const sidebarItems = [
 ];
 
 const stats = [
-  { value: "12.4K", label: "Active Members" },
-  { value: "86.2K", label: "Predictions Made" },
-  { value: "9.1K", label: "Badges Minted" },
-  { value: "18", label: "Countries" },
+  { value: "Africa", label: "Intelligence Network" },
+  { value: "100%", label: "Community Powered" },
+  { value: "24/7", label: "Prediction Insights" },
+  { value: "Global", label: "African Markets" },
 ];
 
 const features = [
@@ -69,36 +69,102 @@ const features = [
 ];
 
 const predictionPillars = [
-  { title: "Multi-Currency Intelligence", detail: "African FX and regional market forecasting." },
-  { title: "Economic Intelligence", detail: "Inflation, commodities, and daily market shifts." },
-  { title: "Business & Technology", detail: "Fintech, mobile money, and AI adoption signals." },
-  { title: "Crypto Intelligence", detail: "Stablecoin growth, Web3 adoption and DeFi." },
-  { title: "Cultural & Social Trends", detail: "Music, sports, youth culture and social momentum." },
+  {
+    title: "Multi-Currency Intelligence",
+    detail:
+      "Monitor and forecast African currencies against global markets including Naira, Kenyan Shilling, Rand, and other regional currencies.",
+  },
+  {
+    title: "Economic Intelligence",
+    detail:
+      "Understand inflation trends, fuel prices, food prices, commodities, and economic movements affecting Africa.",
+  },
+  {
+    title: "Business & Technology",
+    detail:
+      "Discover future trends in fintech, mobile money, startups, digital payments, and artificial intelligence adoption.",
+  },
+  {
+    title: "Crypto Intelligence",
+    detail:
+      "Track stablecoin adoption, crypto payments, Web3 growth, DeFi expansion, and blockchain innovation across Africa.",
+  },
+  {
+    title: "Cultural & Social Trends",
+    detail:
+      "Forecast music trends, sports outcomes, entertainment movements, viral communities, and youth innovation.",
+  },
 ];
 
 const ecosystemPillars = [
-  { title: "Intelligence", copy: "Forecasts built from collective participation and transparent data." },
-  { title: "Community", copy: "Trusted networks that surface insight before the market moves." },
-  { title: "Rewards", copy: "Recognition, points, benefits, and ecosystem access for contribution." },
+  {
+    title: "Intelligence",
+    copy:
+      "Generate valuable predictions backed by community participation, transparent forecasting, and data-driven insights.",
+  },
+  {
+    title: "Community",
+    copy:
+      "Build a trusted network where individuals contribute knowledge, analysis, and predictions that create collective intelligence.",
+  },
+  {
+    title: "Rewards",
+    copy:
+      "Reward participation through reputation, points, exclusive benefits, ecosystem opportunities, and recognition.",
+  },
 ];
 
 const reasons = [
   "Exclusive Intelligence",
   "Premium Research",
   "Early Product Access",
-  "Beta Testing",
+  "Beta Testing Opportunities",
   "Partner Rewards",
   "Community Recognition",
-  "TGE Participation",
-  "Long-Term Benefits",
-  "Market Creation",
+  "TGE Participation Opportunities",
+  "Long-Term Ecosystem Benefits",
+  "Prediction Market Creation",
 ];
 
 const roadmap = [
-  { title: "Foundation", items: ["Brand Launch", "Documentation", "Community Building", "Website Launch"] },
-  { title: "Membership", items: ["Soulbound Badge Mint", "Discord Verification", "Reward Points", "Member Dashboard"] },
-  { title: "Platform Intelligence", items: ["Live Prediction Platform", "Community Forecasting", "Analytics Dashboard", "Beta Testing Program"] },
-  { title: "Ecosystem Expansion", items: ["Mobile Application", "AI-Powered Intelligence", "African Market Expansion", "Token Generation Event"] },
+  {
+    title: "Phase 1 — Foundation",
+    items: [
+      "Brand Launch",
+      "Documentation",
+      "Community Building",
+      "Website Launch",
+    ],
+  },
+  {
+    title: "Phase 2 — Membership",
+    items: [
+      "Soulbound Badge Mint",
+      "Discord Verification",
+      "Reward Points System",
+      "Member Dashboard",
+    ],
+  },
+  {
+    title: "Phase 3 — Platform Intelligence",
+    items: [
+      "Live Prediction Platform",
+      "Community Forecasting",
+      "Analytics Dashboard",
+      "Beta Testing Program",
+      "Partner Campaigns",
+    ],
+  },
+  {
+    title: "Phase 4 — Ecosystem Expansion",
+    items: [
+      "Mobile Application",
+      "AI-Powered Intelligence",
+      "Additional African Markets",
+      "Strategic Partnerships",
+      "Token Generation Event",
+    ],
+  },
 ];
 
 export function ProphixyDocsPage() {
