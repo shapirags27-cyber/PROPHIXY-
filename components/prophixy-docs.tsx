@@ -27,10 +27,14 @@ import { SectionCard } from "@/components/ui/section-card";
 
 const navItems = [
   { label: "Introduction", href: "#introduction", active: true },
-  { label: "Vision", "mission", href: "#vision" },
+  { label: "Vision", href: "#vision" },
+  { label: "Mission", href: "#mission" },
   { label: "Platform", href: "#platform" },
+  { label: "AI Intelligence", href: "#ai" },
+  { label: "Predictions", href: "#predictions" },
   { label: "Ecosystem", href: "#ecosystem" },
   { label: "Membership", href: "#membership" },
+  { label: "Rewards", href: "#rewards" },
   { label: "Roadmap", href: "#roadmap" },
   { label: "Security", href: "#security" },
   { label: "Commitment", href: "#commitment" },
