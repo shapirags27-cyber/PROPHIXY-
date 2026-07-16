@@ -271,7 +271,7 @@ export function ProphixyDocsPage() {
         </section>
 
         <div className="mt-12 text-center text-sm text-zinc-600">
-          © {new Date(2026).getFullYear()} PROPHIXY. All rights reserved.
+          © {2026().getFullYear()} PROPHIXY. All rights reserved.
         </div>
       </main>
     </div>
