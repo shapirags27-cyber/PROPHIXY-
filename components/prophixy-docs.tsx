@@ -48,6 +48,17 @@ export function ProphixyDocsPage() {
               <Search className="h-4 w-4" />
               <input placeholder="Search docs..." className="bg-transparent outline-none w-48 placeholder:text-zinc-500" />
             </div>
+
+            {/* Discord Button Added Here */}
+            <a
+              href="https://discord.gg/tRHf4cGTjY"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-full bg-[#5865F2] hover:bg-[#4752C4] px-5 py-2.5 text-sm font-semibold text-white transition"
+            >
+              Join Discord
+            </a>
+
             <button className="rounded-full bg-emerald-400 text-black px-6 py-2.5 font-semibold hover:bg-emerald-300 transition">
               Connect Wallet
             </button>
