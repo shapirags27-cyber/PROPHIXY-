@@ -637,7 +637,7 @@ Our Vision
 
 <p className="mt-4 leading-8 text-zinc-400">
 
-To become Africa&apos;s leading decentralized prediction and decision intelligence ecosystem, enabling millions of people to make informed decisions through transparent, community-powered forecasting.
+"To become Africa&apos;s leading decentralized prediction and decision intelligence ecosystem, enabling millions of people to make informed decisions through transparent, community-powered forecasting[...]"
 
 </p>
 
@@ -665,7 +665,7 @@ Our Mission
 
 <p className="mt-4 leading-8 text-zinc-400">
 
-To democratize access to predictive intelligence by building an open platform where African communities can collectively forecast trends, analyze markets, and unlock opportunities before they happen.
+"To democratize access to predictive intelligence by building an open platform where African communities can collectively forecast trends, analyze markets, and unlock opportunities before they happen[...]"
 
 </p>
 
@@ -673,7 +673,7 @@ To democratize access to predictive intelligence by building an open platform wh
 </div>
 
 
-<</motion.section>
+</motion.section>
 
 
 {/* =========================
@@ -758,7 +758,7 @@ To democratize access to predictive intelligence by building an open platform wh
 ========================= */}
 
 <motion.section
-  id="ai"<div className="rounded-xl border border-white/10 bg-white/5 p-3">
+  id="ai"
   Improve decision intelligence
 </div>
 
@@ -883,7 +883,7 @@ To democratize access to predictive intelligence by building an open platform wh
         className="rounded-3xl border border-white/10 bg-white/5 p-6 transition-all"
       >
         <div className="mb-4 inline-flex rounded-2xl bg-emerald-400/10 p-3">
-          <BadgeCheck className="h-6 w-6 text-emerald-300" />
+          import { ..., BadgeCheck, ... } from "lucide-react";
         </div>
 
         <h3 className="text-xl font-semibold text-white">
@@ -1486,7 +1486,7 @@ To democratize access to predictive intelligence by building an open platform wh
         "2. Connect Discord",
         "3. Mint SBT",
         "4. Verify Ownership",
-        "5. Receive Discord Role"
+        "5. Receive Discord Role",
         "6. Receive Welcome Points",
         "7. Membership Activated",
       ].map((step) => (
