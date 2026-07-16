@@ -514,7 +514,6 @@ Explore Documentation
 
 
 
-
 {/* INTRODUCTION */}
 
 
@@ -610,12 +609,7 @@ className="rounded-2xl border border-white/10 bg-white/5 p-5"
 </motion.section>
 
 
-
-
-
-
 {/* VISION & MISSION */}
-
 
 
 <motion.section
@@ -651,8 +645,6 @@ To become Africa&apos;s leading decentralized prediction and decision intelligen
 </div>
 
 
-
-
 <div
 id="mission"
 className="rounded-[30px] border border-white/10 bg-zinc-900/70 p-7"
@@ -681,9 +673,8 @@ To democratize access to predictive intelligence by building an open platform wh
 </div>
 
 
+<</motion.section>
 
-</motion.section>
-<section className="space-y-6">
 
 {/* =========================
     WHAT MAKES PROPHIXY DIFFERENT
@@ -767,7 +758,10 @@ To democratize access to predictive intelligence by building an open platform wh
 ========================= */}
 
 <motion.section
-  id="ai"
+  id="ai"<div className="rounded-xl border border-white/10 bg-white/5 p-3">
+  Improve decision intelligence
+</div>
+
   initial={{ opacity: 0, y: 20 }}
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: true }}
@@ -1935,7 +1929,7 @@ To democratize access to predictive intelligence by building an open platform wh
   </div>
 
 </footer>
-          </section>
+         </section>
         </div>
       </main>
     </div>
