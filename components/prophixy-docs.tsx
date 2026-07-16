@@ -67,41 +67,17 @@ const platformFeatures = [
 ];
 
 const predictionPillars = [
-  {
-    title: "Multi-Currency Intelligence",
-    detail: "Monitor and forecast African currencies against global markets including Naira, Kenyan Shilling, Rand, and other regional currencies.",
-  },
-  {
-    title: "Economic Intelligence",
-    detail: "Understand inflation trends, fuel prices, food prices, commodities, and economic movements affecting Africa.",
-  },
-  {
-    title: "Business & Technology",
-    detail: "Discover future trends in fintech, mobile money, startups, digital payments, and artificial intelligence adoption.",
-  },
-  {
-    title: "Crypto Intelligence",
-    detail: "Track stablecoin adoption, crypto payments, Web3 growth, DeFi expansion, and blockchain innovation across Africa.",
-  },
-  {
-    title: "Cultural & Social Trends",
-    detail: "Forecast music trends, sports outcomes, entertainment movements, viral communities, and youth innovation.",
-  },
+  { title: "Multi-Currency Intelligence", detail: "Monitor and forecast African currencies..." },
+  { title: "Economic Intelligence", detail: "Understand inflation trends..." },
+  { title: "Business & Technology", detail: "Discover future trends in fintech..." },
+  { title: "Crypto Intelligence", detail: "Track stablecoin adoption..." },
+  { title: "Cultural & Social Trends", detail: "Forecast music trends..." },
 ];
 
 const ecosystemPillars = [
-  {
-    title: "Intelligence",
-    copy: "Generate valuable predictions backed by community participation, transparent forecasting, and data-driven insights.",
-  },
-  {
-    title: "Community",
-    copy: "Build a trusted network where members contribute knowledge, analysis, and insights.",
-  },
-  {
-    title: "Rewards",
-    copy: "Reward active participation with reputation, benefits, and ecosystem opportunities.",
-  },
+  { title: "Intelligence", copy: "Generate valuable predictions..." },
+  { title: "Community", copy: "Build a trusted network..." },
+  { title: "Rewards", copy: "Reward active participation..." },
 ];
 
 const memberBenefits = [
@@ -117,22 +93,10 @@ const memberBenefits = [
 ];
 
 const roadmap = [
-  {
-    title: "Phase 1 — Foundation",
-    items: ["Brand Launch✓", "Documentation✓", "Community Building✓", "Website Launch✓"],
-  },
-  {
-    title: "Phase 2 — Membership",
-    items: ["Soulbound Badge Mint", "Discord Verification", "Reward Points System", "Member Dashboard"],
-  },
-  {
-    title: "Phase 3 — Platform Intelligence",
-    items: ["Live Prediction Platform", "Community Forecasting", "Analytics Dashboard", "Beta Testing Program", "Partner Campaigns"],
-  },
-  {
-    title: "Phase 4 — Ecosystem Expansion",
-    items: ["Mobile Application", "AI-Powered Intelligence", "Additional African Markets", "Strategic Partnerships", "Token Generation Event"],
-  },
+  { title: "Phase 1 — Foundation", items: ["Brand Launch✓", "Documentation✓", "Community Building✓", "Website Launch✓"] },
+  { title: "Phase 2 — Membership", items: ["Soulbound Badge Mint", "Discord Verification", "Reward Points System", "Member Dashboard"] },
+  { title: "Phase 3 — Platform Intelligence", items: ["Live Prediction Platform", "Community Forecasting", "Analytics Dashboard", "Beta Testing Program", "Partner Campaigns"] },
+  { title: "Phase 4 — Ecosystem Expansion", items: ["Mobile Application", "AI-Powered Intelligence", "Additional African Markets", "Strategic Partnerships", "Token Generation Event"] },
 ];
 
 export function ProphixyDocsPage() {
