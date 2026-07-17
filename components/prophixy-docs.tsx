@@ -21,20 +21,6 @@ import { useState } from "react";
 import { AfricaIllustration } from "@/components/ui/africa-illustration";
 import { MembershipCard } from "@/components/ui/membership-card";
 
-export function ProphixyDocsPage() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  return (
-    <div className="min-h-screen bg-[radial-gradient(circle_at_top_left,rgba(0,230,118,0.16),transparent_24%),linear-gradient(135deg,#040404_0%,#090909_50%,#030303_100%)] text-white">
-      <nav className="sticky top-0 z-50 border-b border-white/10 bg-zinc-950/70 backdrop-blur-2xl">
-        <div className="mx-auto max-w-7xl px-6 py-5 flex items-center justify-between">
-          <Link href="#home" className="flex items-center gap-3 text-2xl font-bold tracking-widest">
-            <span className="h-11 w-11 rounded-2xl border border-emerald-400/30 bg-emerald-400/10 flex items-center justify-center">
-              <Flame className="h-6 w-6 text-emerald-300" />
-            </span>
-            PROPHIXY
-          </Link>
-
 const navItems = [
   { label: "Introduction", href: "#introduction", active: true },
   { label: "Vision", href: "#vision" },
@@ -51,7 +37,6 @@ const navItems = [
   { label: "Commitment", href: "#commitment" },
 ];
 
-
 const sidebarItems = [
   { label: "Introduction", href:"#introduction" },
   { label: "Vision & Mission", href:"#vision" },
@@ -66,7 +51,6 @@ const sidebarItems = [
   { label: "Roadmap", href:"#roadmap" },
   { label: "Security", href:"#security" },
 ];
-
 
 const stats = [
   {
@@ -87,6 +71,20 @@ const stats = [
   },
 ];
 
+export function ProphixyDocsPage() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  return (
+    <div className="min-h-screen bg-[radial-gradient(circle_at_top_left,rgba(0,230,118,0.16),transparent_24%),linear-gradient(135deg,#040404_0%,#090909_50%,#030303_100%)] text-white">
+      <nav className="sticky top-0 z-50 border-b border-white/10 bg-zinc-950/70 backdrop-blur-2xl">
+        <div className="mx-auto max-w-7xl px-6 py-5 flex items-center justify-between">
+          <Link href="#home" className="flex items-center gap-3 text-2xl font-bold tracking-widest">
+            <span className="h-11 w-11 rounded-2xl border border-emerald-400/30 bg-emerald-400/10 flex items-center justify-center">
+              <Flame className="h-6 w-6 text-emerald-300" />
+            </span>
+            PROPHIXY
+          </Link>
+
           <div className="hidden lg:flex items-center gap-8 text-sm">
             {["Introduction", "Vision", "Mission", "Platform", "AI", "Predictions", "Ecosystem", "Reputation", "Membership", "Roadmap", "Security"].map((label) => (
               <Link key={label} href={`#${label.toLowerCase()}`} className="hover:text-emerald-300 transition">
@@ -101,7 +99,6 @@ const stats = [
               <input placeholder="Search docs..." className="bg-transparent outline-none w-48 placeholder:text-zinc-500" />
             </div>
 
-            {/* Discord Button Added Here */}
             <a
               href="https://discord.gg/tRHf4cGTjY"
               target="_blank"
@@ -325,7 +322,7 @@ const stats = [
           <p className="text-zinc-400">Prophixy is committed to maintaining a transparent and trustworthy ecosystem through wallet-based authentication, on-chain Soulbound identities, transparent prediction records, decentralized verification, and privacy-first infrastructure.</p>
         </section>
 
-         <section className="text-center py-20 border-t border-white/10">
+        <section className="text-center py-20 border-t border-white/10">
           <h2 className="text-4xl font-semibold mb-6">Our Commitment</h2>
           <p className="text-xl text-zinc-300">Prophixy is committed to building an open, transparent, and community-driven intelligence platform that empowers Africans to make better decisions through decentralized forecasting and collective knowledge.</p>
 
