@@ -282,8 +282,8 @@ export function ProphixyDocsPage() {
         </section>
 
         <div className="mt-12 text-center text-sm text-zinc-600">
-          © {2026().getFullYear()} PROPHIXY. All rights reserved.
-        </div>
+  © 2026 PROPHIXY. All rights reserved.
+</div>
       </main>
     </div>
   );
