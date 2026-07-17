@@ -35,6 +35,58 @@ export function ProphixyDocsPage() {
             PROPHIXY
           </Link>
 
+const navItems = [
+  { label: "Introduction", href: "#introduction", active: true },
+  { label: "Vision", href: "#vision" },
+  { label: "Mission", href: "#mission" },
+  { label: "Platform", href: "#platform" },
+  { label: "AI Intelligence", href: "#ai" },
+  { label: "Predictions", href: "#predictions" },
+  { label: "Ecosystem", href: "#ecosystem" },
+  { label: "Reputation", href: "#reputation" },
+  { label: "Membership", href: "#membership" },
+  { label: "Rewards", href: "#rewards" },
+  { label: "Roadmap", href: "#roadmap" },
+  { label: "Security", href: "#security" },
+  { label: "Commitment", href: "#commitment" },
+];
+
+
+const sidebarItems = [
+  { label: "Introduction", href:"#introduction" },
+  { label: "Vision & Mission", href:"#vision" },
+  { label: "Platform", href:"#platform" },
+  { label: "AI Intelligence", href:"#ai" },
+  { label: "Prediction Categories", href:"#predictions" },
+  { label: "How Predictions Work", href:"#predictions-work" },
+  { label: "Ecosystem", href:"#ecosystem" },
+  { label: "Reputation System", href:"#reputation" },
+  { label: "Soulbound Membership", href:"#membership" },
+  { label: "Rewards", href:"#rewards" },
+  { label: "Roadmap", href:"#roadmap" },
+  { label: "Security", href:"#security" },
+];
+
+
+const stats = [
+  {
+    value: "Africa",
+    label: "Intelligence Network",
+  },
+  {
+    value: "100%",
+    label: "Community Powered",
+  },
+  {
+    value: "24/7",
+    label: "Future Insights",
+  },
+  {
+    value: "Global",
+    label: "African Markets",
+  },
+];
+
           <div className="hidden lg:flex items-center gap-8 text-sm">
             {["Introduction", "Vision", "Mission", "Platform", "AI", "Predictions", "Ecosystem", "Reputation", "Membership", "Roadmap", "Security"].map((label) => (
               <Link key={label} href={`#${label.toLowerCase()}`} className="hover:text-emerald-300 transition">
