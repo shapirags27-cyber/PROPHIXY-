@@ -273,7 +273,7 @@ export function ProphixyDocsPage() {
           <p className="text-zinc-400">Prophixy is committed to maintaining a transparent and trustworthy ecosystem through wallet-based authentication, on-chain Soulbound identities, transparent prediction records, decentralized verification, and privacy-first infrastructure.</p>
         </section>
 
-        <section className="text-center py-20 border-t border-white/10">
+         <section className="text-center py-20 border-t border-white/10">
           <h2 className="text-4xl font-semibold mb-6">Our Commitment</h2>
           <p className="text-xl text-zinc-300">Prophixy is committed to building an open, transparent, and community-driven intelligence platform that empowers Africans to make better decisions through decentralized forecasting and collective knowledge.</p>
 
@@ -281,9 +281,28 @@ export function ProphixyDocsPage() {
           <p className="mt-6 text-xl text-zinc-400">Africa&apos;s future will be shaped by informed decisions—not guesswork.</p>
         </section>
 
-        <div className="mt-12 text-center text-sm text-zinc-600">
-  © 2026 PROPHIXY. All rights reserved.
-</div>
+        {/* Social Links + Copyright */}
+        <div className="mt-12 text-center text-sm text-zinc-600 flex flex-col items-center gap-4">
+          <div className="flex gap-6">
+            <a 
+              href="https://x.com/Prophixy_win" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              X (Twitter)
+            </a>
+            <a 
+              href="https://discord.gg/tRHf4cGTjY" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              Discord
+            </a>
+          </div>
+          <div>© 2026 PROPHIXY. All rights reserved.</div>
+        </div>
       </main>
     </div>
   );
