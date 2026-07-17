@@ -239,15 +239,29 @@ export function ProphixyDocsPage() {
                   <li>• Create Prediction Markets</li>
                   <li>• Eligible for TGE Allocation</li>
                   <li>• Discord Market Creator Role</li>
+                    <li>• Advanced Research Reports</li>
+                  <li>• Market Watchlists</li>
+                  <li>• Early Campaign Access</li>
+                  <li>• Beta Tester Access</li>
+                  <li>• Partner Ecosystem Benefits</li>
+                  <li>• Soulbound (Non-transferable)</li>
                 </ul>
               </div>
               <div className="bg-zinc-900/70 p-8 rounded-3xl border border-emerald-400/30">
                 <h4 className="text-2xl font-bold">Top Forecaster</h4>
                 <p className="text-emerald-400">Limited Supply: 500</p>
                 <ul className="mt-6 space-y-2 text-sm">
+<li>• Everything in Market Creator</li>
                   <li>• Priority TGE Allocation</li>
                   <li>• Exclusive Intelligence Briefings</li>
                   <li>• Top Forecaster Discord Role</li>
+                  <li>• Private Strategy Discussions</li>
+                  <li>• Premium Partner Benefit</li>
+                  <li>• Premium Community Access</li>
+                  <li>• Partner Ecosystem Benefits</li>
+                  <li>• Premium Partner Benefit</li>
+<li>• Priority Beta Tester Access</li>
+                  <li>• Soulbound (Non-transferable)</li>
                 </ul>
               </div>
             </div>
