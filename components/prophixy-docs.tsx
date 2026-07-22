@@ -77,10 +77,10 @@ export function ProphixyDocsPage() {
   return (
     <div className="min-h-screen bg-[radial-gradient(circle_at_top_left,rgba(0,230,118,0.16),transparent_24%),linear-gradient(135deg,#040404_0%,#090909_50%,#030303_100%)] text-white">
       <nav className="sticky top-0 z-50 border-b border-white/10 bg-zinc-950/70 backdrop-blur-2xl">
-        <div className="mx-auto max-w-7xl px-6 py-5 flex items-center justify-between">
-          <Link href="#home" className="flex items-center gap-3 text-2xl font-bold tracking-widest">
-            <span className="h-11 w-11 rounded-2xl border border-emerald-400/30 bg-emerald-400/10 flex items-center justify-center">
-              <Flame className="h-6 w-6 text-emerald-300" />
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+          <Link href="#home" className="flex items-center gap-3 text-lg font-semibold tracking-[0.28em] text-white">
+            <span className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-2xl border border-emerald-400/30 bg-emerald-400/10 text-emerald-300">
+              <img src="/logo.png" alt="Prophixy logo" className="h-full w-full object-cover" />
             </span>
             PROPHIXY
           </Link>
@@ -239,7 +239,7 @@ export function ProphixyDocsPage() {
                   <li>• Create Prediction Markets</li>
                   <li>• Eligible for TGE Allocation</li>
                   <li>• Discord Market Creator Role</li>
-                    <li>• Advanced Research Reports</li>
+                  <li>• Advanced Research Reports</li>
                   <li>• Market Watchlists</li>
                   <li>• Early Campaign Access</li>
                   <li>• Beta Tester Access</li>
@@ -251,7 +251,7 @@ export function ProphixyDocsPage() {
                 <h4 className="text-2xl font-bold">Top Forecaster</h4>
                 <p className="text-emerald-400">Limited Supply: 500</p>
                 <ul className="mt-6 space-y-2 text-sm">
-<li>• Everything in Market Creator</li>
+                  <li>• Everything in Market Creator</li>
                   <li>• Priority TGE Allocation</li>
                   <li>• Exclusive Intelligence Briefings</li>
                   <li>• Top Forecaster Discord Role</li>
@@ -260,7 +260,7 @@ export function ProphixyDocsPage() {
                   <li>• Premium Community Access</li>
                   <li>• Partner Ecosystem Benefits</li>
                   <li>• Premium Partner Benefit</li>
-<li>• Priority Beta Tester Access</li>
+                  <li>• Priority Beta Tester Access</li>
                   <li>• Soulbound (Non-transferable)</li>
                 </ul>
               </div>
