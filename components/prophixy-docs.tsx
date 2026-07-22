@@ -50,11 +50,13 @@ export function ProphixyDocsPage() {
       {/* Top Navbar */}
       <nav className="sticky top-0 z-50 border-b border-white/10 bg-zinc-950/70 backdrop-blur-2xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-          <Link href="#home" className="flex items-center gap-3 text-lg font-semibold tracking-[0.28em] text-white">
-            <span className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-2xl border border-emerald-400/30 bg-emerald-400/10 text-emerald-300">
+          <Link href="#home" className="flex items-center gap-3 text-lg font-semibold tracking-[0.28em]">
+            <span className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-2xl border border-purple-500/30 bg-purple-500/10 text-purple-300">
               <img src="/logo.png" alt="Prophixy logo" className="h-full w-full object-cover" />
             </span>
-            PROPHIXY
+            <span className="bg-gradient-to-r from-purple-400 via-fuchsia-400 to-blue-400 bg-clip-text text-transparent font-bold">
+              PROPHIXY
+            </span>
           </Link>
 
           <div className="hidden lg:flex items-center gap-4">
@@ -72,7 +74,7 @@ export function ProphixyDocsPage() {
               Join Discord
             </a>
 
-            <button className="rounded-full bg-emerald-400 text-black px-6 py-2.5 font-semibold hover:bg-emerald-300 transition">
+            <button className="rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white px-6 py-2.5 font-semibold hover:opacity-90 transition">
               Connect Wallet
             </button>
           </div>
@@ -89,14 +91,14 @@ export function ProphixyDocsPage() {
         {/* Sidebar Navigation */}
         <aside className={`fixed inset-y-0 left-0 z-45 w-72 bg-zinc-950/95 p-6 border-r border-white/10 transform transition-transform duration-300 lg:translate-x-0 lg:static lg:block lg:w-64 lg:bg-transparent lg:border-none lg:p-0 ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"}`}>
           <div className="sticky top-28 space-y-6">
-            <h3 className="text-sm font-bold uppercase tracking-wider text-emerald-400">Documentation</h3>
+            <h3 className="text-sm font-bold uppercase tracking-wider text-purple-400">Documentation</h3>
             <ul className="space-y-2 text-sm text-zinc-400">
               {sidebarItems.map((item) => (
                 <li key={item.label}>
                   <a
                     href={item.href}
                     onClick={() => setIsSidebarOpen(false)}
-                    className="block rounded-lg px-3 py-2 transition hover:bg-white/5 hover:text-emerald-300"
+                    className="block rounded-lg px-3 py-2 transition hover:bg-white/5 hover:text-purple-300"
                   >
                     {item.label}
                   </a>
@@ -115,7 +117,7 @@ export function ProphixyDocsPage() {
               Predict Smarter. Decide Better. Shape Africa&apos;s Future.
             </h1>
 
-            <div className="mx-auto max-w-md rounded-3xl border border-emerald-400/30 bg-emerald-950/20 p-4 shadow-2xl backdrop-blur-xl">
+            <div className="mx-auto max-w-md rounded-3xl border border-purple-500/30 bg-purple-950/20 p-4 shadow-2xl backdrop-blur-xl">
               <img
                 src="/africa-map.png"
                 alt="Africa Intelligence Network Map"
@@ -126,7 +128,7 @@ export function ProphixyDocsPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-4 w-full">
               {stats.map((stat, idx) => (
                 <div key={idx} className="rounded-2xl border border-white/10 bg-zinc-900/50 p-6 text-center backdrop-blur-md">
-                  <div className="text-3xl font-bold text-emerald-400">{stat.value}</div>
+                  <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">{stat.value}</div>
                   <div className="mt-2 text-sm text-zinc-400">{stat.label}</div>
                 </div>
               ))}
@@ -142,7 +144,7 @@ export function ProphixyDocsPage() {
               <p>We empower individuals, communities, businesses, and organizations to anticipate real-world outcomes through collective intelligence and transparent forecasting.</p>
               <p>By combining community insights with data-driven analysis, Prophixy transforms predictions into actionable intelligence that helps people make better decisions.</p>
               <p>From currencies to commodities, crypto to culture, Prophixy is creating Africa&apos;s intelligence network.</p>
-              <div className="mt-10 p-8 rounded-3xl bg-emerald-900/30 border border-emerald-400/30 text-emerald-300 text-center text-xl font-medium">
+              <div className="mt-10 p-8 rounded-3xl bg-purple-950/30 border border-purple-500/30 text-purple-300 text-center text-xl font-medium">
                 This is not betting. This is collective intelligence for Africa.
               </div>
             </section>
@@ -246,9 +248,9 @@ export function ProphixyDocsPage() {
               <div>
                 <h3 className="text-3xl font-semibold mb-6">Membership Tiers</h3>
                 <div className="grid md:grid-cols-2 gap-10">
-                  <div className="bg-zinc-900/70 p-8 rounded-3xl border border-emerald-400/30">
+                  <div className="bg-zinc-900/70 p-8 rounded-3xl border border-purple-500/30">
                     <h4 className="text-2xl font-bold">Market Creator</h4>
-                    <p className="text-emerald-400">Limited Supply: 1,500</p>
+                    <p className="text-purple-400">Limited Supply: 1,500</p>
                     <ul className="mt-6 space-y-2 text-sm">
                       <li>• Premium Prediction Insights</li>
                       <li>• Create Prediction Markets</li>
@@ -262,9 +264,9 @@ export function ProphixyDocsPage() {
                       <li>• Soulbound (Non-transferable)</li>
                     </ul>
                   </div>
-                  <div className="bg-zinc-900/70 p-8 rounded-3xl border border-emerald-400/30">
+                  <div className="bg-zinc-900/70 p-8 rounded-3xl border border-purple-500/30">
                     <h4 className="text-2xl font-bold">Top Forecaster</h4>
-                    <p className="text-emerald-400">Limited Supply: 500</p>
+                    <p className="text-purple-400">Limited Supply: 500</p>
                     <ul className="mt-6 space-y-2 text-sm">
                       <li>• Everything in Market Creator</li>
                       <li>• Priority TGE Allocation</li>
@@ -320,7 +322,7 @@ export function ProphixyDocsPage() {
                 <h2 className="text-4xl font-semibold mb-6">Our Commitment</h2>
                 <p className="text-xl text-zinc-300">Prophixy is committed to building an open, transparent, and community-driven intelligence platform that empowers Africans to make better decisions through decentralized forecasting and collective knowledge.</p>
 
-                <div className="mt-16 text-4xl font-medium text-emerald-300">Join the Intelligence Revolution</div>
+                <div className="mt-16 text-4xl font-medium bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">Join the Intelligence Revolution</div>
                 <p className="mt-6 text-xl text-zinc-400">Africa&apos;s future will be shaped by informed decisions—not guesswork.</p>
               </div>
             </section>
